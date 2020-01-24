@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 529393206}
   - component: {fileID: 529393205}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Lose Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -786,7 +786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &578093163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,6 +1147,7 @@ GameObject:
   - component: {fileID: 744285005}
   - component: {fileID: 744285004}
   - component: {fileID: 744285003}
+  - component: {fileID: 744285006}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -1242,12 +1243,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744285002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.2, y: 0.3191686, z: -3.38}
+  m_LocalPosition: {x: 8.2, y: 0.3191686, z: -6.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744285006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744285002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8adb13d388574f359b1999146ae0d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenWidthInUnits: 16
+  minX: 1
+  maxX: 15
 --- !u!1 &896104399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,6 +1276,7 @@ GameObject:
   - component: {fileID: 896104401}
   - component: {fileID: 896104400}
   - component: {fileID: 896104403}
+  - component: {fileID: 896104404}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -1344,7 +1361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896104399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.47, y: 5.4, z: 0}
+  m_LocalPosition: {x: 8.14, y: 0.92, z: -6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1366,6 +1383,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.21
+--- !u!114 &896104404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896104399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d9ce5dbafa344d7a3f9545f1538fc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddle1: {fileID: 744285006}
 --- !u!1 &1093430943
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2241,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1763713902}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
