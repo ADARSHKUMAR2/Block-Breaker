@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{828AE268-9F36-D616-82FD-89E21BFCDA9E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoseCollider.cs">
     <Files>
       <File FileName="Assets/Scripts/LoseCollider.cs" Line="7" Column="2" />
       <File FileName="Assets/Scripts/PaddleScript.cs" Line="15" Column="64" />
-      <File FileName="Assets/Scripts/BallScript.cs" Line="28" Column="69" />
+      <File FileName="Assets/Scripts/BallScript.cs" Line="34" Column="76" />
+      <File FileName="Assets/Scripts/SceneLoader.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +16,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3ae9ecef-990b-45ba-876d-9cdb3e1dbe9a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="125777f0-1693-4690-bb33-d54cddf7d2ab" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
